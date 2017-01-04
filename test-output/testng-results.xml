@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="32104" started-at="2017-01-04T19:04:36Z" finished-at="2017-01-04T19:05:08Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="32104" started-at="2017-01-04T19:04:36Z" finished-at="2017-01-04T19:05:08Z">
+      <class name="com.s3group.framework.tests.MyTest">
+        <test-method status="PASS" signature="search_Login()[pri:0, instance:com.s3group.framework.tests.MyTest@6be968ce]" name="search_Login" duration-ms="30790" started-at="2017-01-05T00:34:36Z" finished-at="2017-01-05T00:35:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_Login -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.s3group.framework.tests.MyTest@6be968ce]" name="getResult" is-config="true" duration-ms="1285" started-at="2017-01-05T00:35:07Z" finished-at="2017-01-05T00:35:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=search_Login status=SUCCESS method=MyTest.search_Login()[pri:0, instance:com.s3group.framework.tests.MyTest@6be968ce] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.s3group.framework.tests.MyTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
